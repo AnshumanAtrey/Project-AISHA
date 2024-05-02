@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-neutral-950 text-neutral-50 font-display;
+}
+
+h1 {
+  @apply text-h1 z-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 text-center;
+}
+
+a {
+  @apply underline;
+}
+
+p {
+  @apply text-neutral-500 max-w-lg mx-auto text-sm text-center py-1 z-10;
+}
+
+input {
+  @apply rounded-t-lg border-x border-t p-2 border-neutral-800 focus:outline-none focus:ring-inset focus:ring-blue-950/30 w-full z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700;
+}
